@@ -1,6 +1,6 @@
 # Five-prime-stability
 
-This repository contains all the source code used for analysis in the project
+This repository contains all the source code used for analysis in the project.
 
 ‘genomes.csv’ contains the list of the 549 archaea species and accession numbers included in this project.
 
