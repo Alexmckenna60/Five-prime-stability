@@ -23,17 +23,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-#options = Options()
-#options.add_experimental_option("detach",True)
-
-#driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-						
-#driver.get("http://www.orgene.net/CnnPOGTP/")
-
-#Up till this point code works and it opens CnnPOGTP in chrome
-
-#Input files = FASTA .fna
-
 strt = time.time()
 
 f = "species_accession.csv"
@@ -132,12 +121,6 @@ fout.close()
 fnn = time.time()
 print(f"script took {fnn-strt} seconds")
 	
-#fout = open(f"Predicted_Topt.csv", "w")
-#fout.write(f"Accession Number, Predicted Optimum Growth Temperature\n")
-
-# Open CSV file for writing results
-#Used right click inspection on CnnPOGT website to identify "genome_fasta_file", "button","wrap_search"
-
 
 
 
